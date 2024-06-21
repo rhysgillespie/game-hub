@@ -8,9 +8,6 @@ const GameGrid = () => {
   return (
     <>
       {error && <Text>{error}</Text>}
-      {/* {games.map((game) => (
-        <GameCard game={game} />
-      ))} */}
 
       <SimpleGrid
         columns={{ sm: 1, md: 2, lg: 3, xl: 5 }}

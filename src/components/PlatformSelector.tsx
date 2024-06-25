@@ -19,7 +19,7 @@ const PlatformSelector = ({ onSelectPlatform, selectedPlatform }: Props) => {
 
   if (error) return null;
 
-  if (isLoading) return <Spinner />;
+  // if (isLoading) return <Spinner />;
 
   return (
     <Menu>
